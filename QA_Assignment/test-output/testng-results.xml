@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-02T20:10:31 IST" name="Default suite" finished-at="2022-02-02T20:10:43 IST" duration-ms="12175">
+    <groups>
+    </groups>
+    <test started-at="2022-02-02T20:10:31 IST" name="Default test" finished-at="2022-02-02T20:10:43 IST" duration-ms="12175">
+      <class name="testCases.TestCases">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:31 IST" name="openBrowser" finished-at="2022-02-02T20:10:33 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="Impl()[pri:1, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:33 IST" name="Impl" finished-at="2022-02-02T20:10:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Impl -->
+        <test-method signature="testCase1_login()[pri:2, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:33 IST" name="testCase1_login" finished-at="2022-02-02T20:10:40 IST" depends-on-methods="testCases.TestCases.Impl" duration-ms="6238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1_login -->
+        <test-method signature="testCase2_Add_one_item_to_cart()[pri:3, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:40 IST" name="testCase2_Add_one_item_to_cart" finished-at="2022-02-02T20:10:40 IST" depends-on-methods="testCases.TestCases.Impl" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2_Add_one_item_to_cart -->
+        <test-method signature="testCase3_Go_to_cart_and_verify_the_item()[pri:4, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:40 IST" name="testCase3_Go_to_cart_and_verify_the_item" finished-at="2022-02-02T20:10:40 IST" depends-on-methods="testCases.TestCases.Impl" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3_Go_to_cart_and_verify_the_item -->
+        <test-method signature="testCase4_fill_form_and_submit()[pri:5, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:40 IST" name="testCase4_fill_form_and_submit" finished-at="2022-02-02T20:10:43 IST" depends-on-methods="testCases.TestCases.Impl" duration-ms="3233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4_fill_form_and_submit -->
+        <test-method signature="testCase5_go_to_Cart_and_see_that_item_removed()[pri:6, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:43 IST" name="testCase5_go_to_Cart_and_see_that_item_removed" finished-at="2022-02-02T20:10:43 IST" depends-on-methods="testCases.TestCases.Impl" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5_go_to_Cart_and_see_that_item_removed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:43 IST" name="closeBrowser" finished-at="2022-02-02T20:10:43 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="asse()[pri:0, instance:testCases.TestCases@4803b726]" started-at="2022-02-02T20:10:43 IST" name="asse" finished-at="2022-02-02T20:10:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asse -->
+      </class> <!-- testCases.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

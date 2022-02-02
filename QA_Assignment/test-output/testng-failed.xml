@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.TestCases">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="Impl"/>
+          <include name="closeBrowser"/>
+          <include name="testCase5_go_to_Cart_and_see_that_item_removed"/>
+          <include name="testCase3_Go_to_cart_and_verify_the_item"/>
+        </methods>
+      </class> <!-- testCases.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
